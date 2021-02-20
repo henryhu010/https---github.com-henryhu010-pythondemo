@@ -2,7 +2,7 @@
 '''
 Author: Henry
 Date: 2021-01-24 20:02:57
-LastEditTime: 2021-02-11 15:56:09
+LastEditTime: 2021-02-19 13:45:25
 LastEditors: Please set LastEditors
 Description: word game
 FilePath: /python/wordgame.py
@@ -41,3 +41,23 @@ while number:
 
 
 print('----------- HenryFunc3 ---------')
+temp3 = input('请输入一个整数：')
+number3 = int(temp3)
+while number3:
+    i3 = number3 - 1
+    while i3:
+        print(' ', end='')
+        i = i -1
+    j = number3
+    while j:
+        print('*', end='')
+        j = j - 1
+    print()
+    number3 = number3 - 1
+
+
+'''
+while temp3:
+    print(' '*(temp3-1)+'*'*temp3)
+    temp3 -= 1
+'''
